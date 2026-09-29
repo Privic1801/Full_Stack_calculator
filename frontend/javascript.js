@@ -56,7 +56,7 @@ operatorButtons.forEach(function(button){
 })
 
 equalButton.addEventListener("click", function(event){
-    fetch("http://127.0.0.1:8000/calculate",{
+    fetch("https://full-stack-calculator-api.onrender.com/calculate",{
         method: "POST",
         headers :{
             "Content-Type" : "application/json"
