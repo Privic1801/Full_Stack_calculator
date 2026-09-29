@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
-from calculator import calculator_expression
+from backend.calculator import calculator_expression
 app = FastAPI()
 
 app.add_middleware(
